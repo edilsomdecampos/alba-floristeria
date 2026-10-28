@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f4efe6" />
+  <title>ALBA — Floristería de autor</title>
+  <meta name="description" content="ALBA — flores para lo que aún no sabes decir. Floristería de autor en España." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-flower" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" aria-label="ALBA inicio">
+      <span class="brand-dot"></span>
+      <span>ALBA</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#coleccion">Colección</a>
+      <a href="#atelier">Atelier</a>
+      <a href="#ocasiones">Ocasiones</a>
+    </nav>
+    <button class="order-trigger magnetic" data-open-concierge>Crear un ramo <span>↗</span></button>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" role="img" aria-label="Ramo editorial de flores rosadas y blancas sobre fondo suave"></div>
+      <div class="hero-wash"></div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Floristería de autor · España</p>
+        <h1 id="hero-title" class="hero-title">
+          <span class="line reveal">Flores para</span>
+          <span class="line italic reveal">lo que aún</span>
+          <span class="line reveal">no sabes decir.</span>
+        </h1>
+        <div class="hero-bottom reveal">
+          <p>Composiciones vivas, hechas a mano<br>para personas, casas y momentos.</p>
+          <a href="#coleccion" class="scroll-link">Descubrir <span>↓</span></a>
+        </div>
+      </div>
+      <div class="petal petal-a"></div><div class="petal petal-b"></div><div class="petal petal-c"></div>
+    </section>
+
+    <section class="manifesto scene" id="atelier">
+      <div class="manifesto-index">01 — gesto</div>
+      <div class="manifesto-copy">
+        <p class="kicker">No vendemos flores. Componemos gestos.</p>
+        <h2>Una flor puede durar días.<br><em>Lo que provoca, mucho más.</em></h2>
+      </div>
+      <figure class="manifesto-figure portrait-card tilt-card">
+        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=88" alt="Detalle de flores frescas en tonos suaves" loading="lazy">
+        <figcaption>Selección diaria · estación primero</figcaption>
+      </figure>
+    </section>
+
+    <section class="collection" id="coleccion">
+      <div class="collection-head">
+        <div>
+          <p class="eyebrow">Colección viva</p>
+          <h2>El ramo cambia.<br><em>La intención no.</em></h2>
+        </div>
+        <p class="collection-note">Trabajamos por color, textura, estación y emoción. Las fotografías son una dirección estética; cada composición se crea de nuevo.</p>
+      </div>
+
+      <div class="flower-stage" data-flower-stage>
+        <div class="stage-copy">
+          <span class="stage-number">02</span>
+          <p>Explora por sensación</p>
+          <h3 data-stage-title>Silencio<br>de mañana</h3>
+          <p class="stage-desc" data-stage-desc>Blancos rotos, verdes pálidos y pétalos con aire. Para casas que piden calma.</p>
+          <button class="text-button" data-open-concierge>Quiero algo así <span>↗</span></button>
+        </div>
+        <div class="stage-image-wrap">
+          <img data-stage-image src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=1600&q=90" alt="Composición floral editorial" loading="lazy">
+          <div class="stage-orbit" aria-hidden="true">ALBA · HECHO A MANO · ESTACIONAL ·</div>
+        </div>
+        <div class="stage-tabs" role="tablist" aria-label="Sensaciones florales">
+          <button class="stage-tab is-active" data-index="0" role="tab">Calma</button>
+          <button class="stage-tab" data-index="1" role="tab">Deseo</button>
+          <button class="stage-tab" data-index="2" role="tab">Fiesta</button>
+          <button class="stage-tab" data-index="3" role="tab">Casa</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="editorial-break scene">
+      <div class="break-image break-left">
+        <img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=1200&q=88" alt="Florista trabajando con flores frescas" loading="lazy">
+      </div>
+      <div class="break-copy">
+        <p class="eyebrow">Composición, no catálogo</p>
+        <h2>Primero escuchamos.<br>Después elegimos las flores.</h2>
+        <p>Un ramo para pedir perdón no nace igual que uno para celebrar. Nuestro trabajo empieza antes del tallo: empieza con la intención.</p>
+      </div>
+      <div class="break-image break-right">
+        <img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?auto=format&fit=crop&w=1000&q=88" alt="Flores en tonos rosados y crema" loading="lazy">
+      </div>
+    </section>
+
+    <section class="occasions" id="ocasiones">
+      <div class="occasions-head">
+        <span class="manifesto-index">03 — ocasión</span>
+        <h2>Hay momentos que<br>merecen <em>algo vivo.</em></h2>
+      </div>
+      <div class="occasion-list">
+        <button class="occasion-row" data-open-concierge data-intent="amor"><span>01</span><strong>Decir te quiero</strong><i>↗</i></button>
+        <button class="occasion-row" data-open-concierge data-intent="gracias"><span>02</span><strong>Dar las gracias</strong><i>↗</i></button>
+        <button class="occasion-row" data-open-concierge data-intent="cumpleaños"><span>03</span><strong>Celebrar un cumpleaños</strong><i>↗</i></button>
+        <button class="occasion-row" data-open-concierge data-intent="casa"><span>04</span><strong>Llenar la casa</strong><i>↗</i></button>
+        <button class="occasion-row" data-open-concierge data-intent="empresa"><span>05</span><strong>Vestir un espacio</strong><i>↗</i></button>
+      </div>
+    </section>
+
+    <section class="wow scene" aria-label="Experiencia de ramo">
+      <div class="wow-sticky">
+        <div class="wow-bg"></div>
+        <div class="wow-copy">
+          <p class="eyebrow">Un ramo no se elige.<br>Se construye contigo.</p>
+          <h2><span>1. intención</span><span>2. color</span><span>3. gesto</span></h2>
+          <button class="pill-button" data-open-concierge>Empezar mi composición</button>
+        </div>
+        <div class="stem stem-1"></div><div class="stem stem-2"></div><div class="stem stem-3"></div>
+        <div class="bloom bloom-1"></div><div class="bloom bloom-2"></div><div class="bloom bloom-3"></div>
+      </div>
+    </section>
+
+    <section class="local-note">
+      <div>
+        <p class="eyebrow">Floristería local · España</p>
+        <h2>Cerca cuando importa.</h2>
+      </div>
+      <div class="local-grid">
+        <p>Recogida en atelier<br><span>[DIRECCIÓN]</span></p>
+        <p>Entregas locales<br><span>[ZONA DE ENTREGA]</span></p>
+        <p>Habla con nosotros<br><span>[WHATSAPP] · [TELÉFONO]</span></p>
+        <p>Horario<br><span>[HORARIOS]</span></p>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="final-image"></div>
+      <div class="final-overlay"></div>
+      <div class="final-copy">
+        <p class="eyebrow">ALBA</p>
+        <h2>¿Qué quieres<br><em>hacer sentir?</em></h2>
+        <button class="final-button magnetic" data-open-concierge>Crear un ramo <span>↗</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">ALBA</div>
+    <div class="footer-meta"><span>[INSTAGRAM]</span><span>[EMAIL]</span><span>España</span></div>
+    <div class="footer-small">Flores para lo que aún no sabes decir.</div>
+  </footer>
+
+  <button class="mobile-order" data-open-concierge>Crear un ramo <span>↗</span></button>
+
+  <dialog class="concierge" id="concierge" aria-labelledby="concierge-title">
+    <div class="concierge-shell">
+      <button class="concierge-close" aria-label="Cerrar">×</button>
+      <div class="concierge-brand">ALBA <span>concierge floral</span></div>
+      <div class="concierge-progress"><span></span></div>
+      <div class="concierge-body">
+        <p class="eyebrow">Composición personal</p>
+        <h2 id="concierge-title">Cuéntame qué quieres hacer sentir.</h2>
+        <p class="concierge-sub">No hace falta saber de flores. Empezamos por la intención.</p>
+        <div class="concierge-options" data-step="intent">
+          <button data-value="amor">Amor</button><button data-value="gracias">Gracias</button><button data-value="celebrar">Celebrar</button><button data-value="casa">Para mi casa</button><button data-value="otro">Otra cosa</button>
+        </div>
+        <div class="concierge-panel" hidden>
+          <label>¿Para cuándo?</label>
+          <input type="date" id="dateField" />
+          <label>¿Qué tonos te atraen?</label>
+          <div class="tone-row"><button data-tone="suave">Suaves</button><button data-tone="vivos">Vivos</button><button data-tone="oscuros">Profundos</button><button data-tone="libre">Sorpréndeme</button></div>
+          <label>Tu nombre</label><input id="nameField" autocomplete="name" placeholder="Nombre" />
+          <label>Teléfono</label><input id="phoneField" autocomplete="tel" placeholder="+34 …" />
+          <label>Una nota para el atelier <span>(opcional)</span></label><textarea id="noteField" placeholder="Cuéntanos algo sobre la persona o el momento…"></textarea>
+          <button class="concierge-submit">Preparar mi solicitud <span>↗</span></button>
+        </div>
+        <div class="concierge-success" hidden>
+          <div class="success-flower">✣</div>
+          <h3>Tu intención ya tiene forma.</h3>
+          <p>Esta es una demostración de experiencia. El siguiente paso será conectar el atelier con WhatsApp, disponibilidad, pagos o CRM reales.</p>
+          <button class="concierge-done">Volver al jardín</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
